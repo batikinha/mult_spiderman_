@@ -1,0 +1,81 @@
+@import url(reset.css);
+@import url(global.css);
+@import url(components/navigator.css);
+@import url(components/gallery.css);
+@import url(components/pills.css);
+@import url(components/link-button.css);
+
+.s-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+}
+
+.s-wrapper .s-left-column {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-right: 50px;
+    left: 0;
+    z-index: 1;
+}
+
+.s-wrapper .s-main-content {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    padding-left: 130px;
+    background-image: url(/assets/img/spiderman-tobey/movie-1/background.png);
+    background-size: cover;
+}
+
+.s-wrapper .s-main-content__top {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s-wrapper .s-main-content__bottom {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.s-wrapper .s-main-content .s-logo img {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.s-wrapper .s-main-content__top .s-description {
+    background-color: rgba(0,0,0,.7);
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description .s-description__text p{
+    color: white;
+    line-height: 170%;
+}
+
+.s-wrapper .s-main-content__top .s-description .pills {
+    margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-links {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.s-wrapper .s-main-content .s-links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+/* resolver questão das imagens não ficarem no lugar certo, o assistir o trailler dentro da div e na tela inicial, os nomes não ficam embaixo. parei na aula definindo o back da pagina inteira minuto 2:19*/
