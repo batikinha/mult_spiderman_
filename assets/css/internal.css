@@ -7,8 +7,12 @@
 
 .s-wrapper {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-flow: row nowrap;
+    background: linear-gradient(to bottom, transparent, black), url(/assets/img/spiderman-tobey/movie-1/background.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .s-wrapper .s-left-column {
@@ -20,23 +24,31 @@
     position: fixed;
     padding-right: 50px;
     left: 0;
+    top: 0;
     z-index: 1;
 }
 
 .s-wrapper .s-main-content {
     height: 100%;
     width: 100%;
+    position: relative;
     background-color: grey;
     padding-left: 130px;
     background-image: url(/assets/img/spiderman-tobey/movie-1/background.png);
     background-size: cover;
+    width: calc(100% - 130px); /* Subtrai a largura da coluna lateral */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .s-wrapper .s-main-content__top {
     height: 50vh;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: flex-start;
+    padding-bottom: 20px;
 }
 
 .s-wrapper .s-main-content__bottom {
@@ -44,6 +56,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding-bottom: 40px;
+    margin-top: 35%;
+    padding: 20px 0;
 }
 
 .s-wrapper .s-main-content .s-logo img {
@@ -79,3 +94,19 @@
 }
 
 /* resolver questão das imagens não ficarem no lugar certo, o assistir o trailler dentro da div e na tela inicial, os nomes não ficam embaixo. parei na aula definindo o back da pagina inteira minuto 2:19*/
+
+.s-spiderman-01-01 {
+    background-image: url(/assets/img/spiderman-tobey/movie-1/background.png);
+    background-size:cover;
+}
+
+.s-spiderman-01-02 {
+    background-image: url(/assets/img/spiderman-tobey/movie-2/background.png);
+    background-size: cover;
+}
+  
+.s-spiderman-01-03 {
+    background-image: url(/assets/img/spiderman-tobey/movie-3/background.png);
+    background-size: cover;
+}
+

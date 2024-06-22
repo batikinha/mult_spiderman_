@@ -1,18 +1,21 @@
 .gallery {
     padding: 20px;
     padding-left: 0;
+    justify-content: center;
 }
+
 
 .gallery ul {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .gallery ul li{
     margin-left: 25px;
 }
 
-.galery ul li:first-child{
+.gallery ul li:first-child{
     margin-left: 0;
 }
     
