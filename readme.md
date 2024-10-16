@@ -1,12 +1,12 @@
-<h1>Sobre o projeto:</h1>
+<h1>About the project:</h1>
 
-Feito na plataforma DIO, com objetivo de estabelecer um site que contêm informações sobre os filmes principais do multiverso do homem-aranha.
+Made on the DIO platform, with the aim of establishing a website that contains information about the main films in the Spider-Man multiverse.
 
-<h1>Fotos relativas ao projeto:</h1>
+<h1>Photos related to the project:</h1>
 
-Página inicial:
+Home page:
 
-![Página Inicial](assets/img/telainicial.png)
+![Home Page](assets/img/telainicial.png)
 
 Tobey Maguire:
 
