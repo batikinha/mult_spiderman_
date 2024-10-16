@@ -22,7 +22,7 @@ Andrew Garfield:
 
 <h2>Disclaimer:</h2>
 
-É necessário aprimorar a distância de alguns elementos CSS em relação à logo.
+It is necessary to improve the distance of some CSS elements in relation to the logo.
 
 <h2>Site:</h2>
 
